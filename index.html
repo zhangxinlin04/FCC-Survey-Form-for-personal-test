@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel='stylesheet' href='Test Form styles.css'>
+		<title>Test Form</title>
+	</head>
+	<body>
+		<h1 id="title">Test Form</h1>
+		<p id="description">just for test</p>
+		<form id="survey-form">
+		<label id="name-label">
+			Name:<input id="name" type="text" placeholder="Enter your name" required/>
+		</label>
+		<label id="email-label">
+			Email:<input id="email" type="email" placeholder="Enter your email" required/>
+		</label>
+		<label id="number-label">
+			Number:<input id="number" type="number" min="0" max="100" placeholder="Enter your number" required>
+		</label>
+		You`re
+		<select id="dropdown">
+			<option>
+				female
+			</option>
+			<option>
+				male
+			</option>
+		</select>
+		<label><input type="radio" name="account-type" value="Personal"/>Personal</label>
+		<label><input type="radio" name="account-type" value="Business"/>Business</label>
+		<label><input type="checkbox" name="agree-first" value="agree-first"/>I agree the first one</label>
+		<label><input type="checkbox" name="agree-second" value="agree-second"/>I agree the second one</label>
+		<textarea><input type="text"/></textarea>
+		<button id="submit" type="submit">submit</button>
+		</form>
+	</body>
+</html>
